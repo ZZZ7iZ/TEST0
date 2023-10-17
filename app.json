@@ -1,0 +1,62 @@
+{
+    "name": "بوت تجميع",
+    "description": "سورس زد إي",
+    "keywords": [
+        "telegram",
+        "bot",
+        "heroku",
+        "app.json",
+        "app",
+        "json",
+        "maker",
+        "generator"
+    ],
+    "repository": "https://github.com/Source-Ze/TEST0",
+    "website": "https://t.me/UI_XB",
+    "success_url": "https://t.me/UI_XB",
+    "env": {
+        "api_hash": {
+            "description": "ضع ايبي هاش الخاص بك"
+        },
+        "api_id": {
+            "description": "ضع ايبي ايدي الخاص بك",
+            "required": "False",
+            "value": ""
+        },
+        "bot_token": {
+            "description": "ضع التوكن الخاص بك"
+        },
+        "DEVLOO": {
+            "description": "ضع ايدي المطور الخاص بك",
+            "required": "False",
+            "value": ""
+        },
+        "MAX_ACCOUNTS": {
+            "description": "ضع عدد الحسابات",
+            "required": "False",
+            "value": ""    
+        },
+        "user_bot": {
+            "description": "ضع يوزر البوت",
+            "required": "False",
+            "value": ""    
+        },
+        "id_bot": {
+            "description": "ضع ايدي البوت",
+            "required": "False",
+            "value": ""    
+        }
+    },
+    "stack": "heroku-20",
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
