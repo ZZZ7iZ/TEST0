@@ -10,5 +10,3 @@ youtube-search
 sqlalchemy
 asyncio
 pyfiglet
-json
-threading
