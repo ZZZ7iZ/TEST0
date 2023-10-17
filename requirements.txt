@@ -9,7 +9,6 @@ pytube
 youtube-search
 sqlalchemy
 asyncio
-time
 pyfiglet
 json
 threading
